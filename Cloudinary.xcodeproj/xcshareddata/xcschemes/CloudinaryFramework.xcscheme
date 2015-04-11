@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA8B4E4E1AD6C83300F03FF4"
-               BuildableName = "CloudinaryFramework.framework"
+               BuildableName = "Cloudinary.framework"
                BlueprintName = "CloudinaryFramework"
                ReferencedContainer = "container:Cloudinary.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA8B4E4E1AD6C83300F03FF4"
-            BuildableName = "CloudinaryFramework.framework"
+            BuildableName = "Cloudinary.framework"
             BlueprintName = "CloudinaryFramework"
             ReferencedContainer = "container:Cloudinary.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA8B4E4E1AD6C83300F03FF4"
-            BuildableName = "CloudinaryFramework.framework"
+            BuildableName = "Cloudinary.framework"
             BlueprintName = "CloudinaryFramework"
             ReferencedContainer = "container:Cloudinary.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA8B4E4E1AD6C83300F03FF4"
-            BuildableName = "CloudinaryFramework.framework"
+            BuildableName = "Cloudinary.framework"
             BlueprintName = "CloudinaryFramework"
             ReferencedContainer = "container:Cloudinary.xcodeproj">
          </BuildableReference>
