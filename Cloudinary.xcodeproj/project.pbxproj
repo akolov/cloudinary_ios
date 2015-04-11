@@ -36,7 +36,7 @@
 		FA8B4E6D1AD6C88300F03FF4 /* NSString+CLURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFFE0D17250CA600005AC9 /* NSString+CLURLEncoding.m */; };
 		FA8B4E6E1AD6C89900F03FF4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723C80E516393B13003FB3FB /* Security.framework */; };
 		FA8B4E6F1AD6C89D00F03FF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723C80BA163885C7003FB3FB /* Foundation.framework */; };
-		FA8B4E701AD6C90900F03FF4 /* NSDictionary+CLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EFFE0A17250CA600005AC9 /* NSDictionary+CLUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8B4E701AD6C90900F03FF4 /* NSDictionary+CLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EFFE0A17250CA600005AC9 /* NSDictionary+CLUtilities.h */; };
 		FA8B4E711AD6C91200F03FF4 /* CLCloudinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 723C80BF163885C7003FB3FB /* CLCloudinary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA8B4E721AD6C91500F03FF4 /* CLTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 723C80E916394BAA003FB3FB /* CLTransformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA8B4E731AD6C91700F03FF4 /* CLUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 723C8103163A9118003FB3FB /* CLUploader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -237,11 +237,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA8B4E751AD6C92800F03FF4 /* Cloudinary.h in Headers */,
-				FA8B4E701AD6C90900F03FF4 /* NSDictionary+CLUtilities.h in Headers */,
 				FA8B4E711AD6C91200F03FF4 /* CLCloudinary.h in Headers */,
 				FA8B4E721AD6C91500F03FF4 /* CLTransformation.h in Headers */,
 				FA8B4E731AD6C91700F03FF4 /* CLUploader.h in Headers */,
 				FA8B4E771AD6C98700F03FF4 /* CloudinaryFramework.h in Headers */,
+				FA8B4E701AD6C90900F03FF4 /* NSDictionary+CLUtilities.h in Headers */,
 				FA8B4E741AD6C91900F03FF4 /* CLEagerTransformation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -674,6 +674,7 @@
 				FA8B4E631AD6C83400F03FF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
