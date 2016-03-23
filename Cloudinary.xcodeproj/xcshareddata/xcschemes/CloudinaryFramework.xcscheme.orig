@@ -14,7 +14,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
+               BlueprintIdentifier = "FA8B4E4E1AD6C83300F03FF4"
+=======
                BlueprintIdentifier = "FA7C4A341AE947AF00647312"
+>>>>>>> framework
                BuildableName = "Cloudinary.framework"
                BlueprintName = "CloudinaryFramework"
                ReferencedContainer = "container:Cloudinary.xcodeproj">
@@ -28,7 +32,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
+               BlueprintIdentifier = "FA8B4E581AD6C83300F03FF4"
+=======
                BlueprintIdentifier = "FA7C4A3E1AE947AF00647312"
+>>>>>>> framework
                BuildableName = "CloudinaryFrameworkTests.xctest"
                BlueprintName = "CloudinaryFrameworkTests"
                ReferencedContainer = "container:Cloudinary.xcodeproj">
@@ -46,7 +54,11 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
+               BlueprintIdentifier = "FA8B4E581AD6C83300F03FF4"
+=======
                BlueprintIdentifier = "FA7C4A3E1AE947AF00647312"
+>>>>>>> framework
                BuildableName = "CloudinaryFrameworkTests.xctest"
                BlueprintName = "CloudinaryFrameworkTests"
                ReferencedContainer = "container:Cloudinary.xcodeproj">
@@ -56,7 +68,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
+            BlueprintIdentifier = "FA8B4E4E1AD6C83300F03FF4"
+=======
             BlueprintIdentifier = "FA7C4A341AE947AF00647312"
+>>>>>>> framework
             BuildableName = "Cloudinary.framework"
             BlueprintName = "CloudinaryFramework"
             ReferencedContainer = "container:Cloudinary.xcodeproj">
@@ -78,7 +94,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
+            BlueprintIdentifier = "FA8B4E4E1AD6C83300F03FF4"
+=======
             BlueprintIdentifier = "FA7C4A341AE947AF00647312"
+>>>>>>> framework
             BuildableName = "Cloudinary.framework"
             BlueprintName = "CloudinaryFramework"
             ReferencedContainer = "container:Cloudinary.xcodeproj">
@@ -96,7 +116,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
+            BlueprintIdentifier = "FA8B4E4E1AD6C83300F03FF4"
+=======
             BlueprintIdentifier = "FA7C4A341AE947AF00647312"
+>>>>>>> framework
             BuildableName = "Cloudinary.framework"
             BlueprintName = "CloudinaryFramework"
             ReferencedContainer = "container:Cloudinary.xcodeproj">
