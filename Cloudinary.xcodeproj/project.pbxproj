@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		721E57D01BB555B700F7FDD1 /* CLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 721E57CF1BB555B700F7FDD1 /* CLLayer.m */; settings = {ASSET_TAGS = (); }; };
+		721E57D01BB555B700F7FDD1 /* CLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 721E57CF1BB555B700F7FDD1 /* CLLayer.m */; };
 		72222DD618D2FCAF00780A5A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72222DD518D2FCAF00780A5A /* XCTest.framework */; };
 		723C80BB163885C7003FB3FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723C80BA163885C7003FB3FB /* Foundation.framework */; };
 		723C80C0163885C7003FB3FB /* CLCloudinary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 723C80BF163885C7003FB3FB /* CLCloudinary.h */; };
@@ -29,6 +29,7 @@
 		72A8B29018B88694008BAEF7 /* docx.docx in Resources */ = {isa = PBXBuildFile; fileRef = 72A8B28F18B88694008BAEF7 /* docx.docx */; };
 		72EFFE0E17250CA600005AC9 /* NSDictionary+CLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFFE0B17250CA600005AC9 /* NSDictionary+CLUtilities.m */; };
 		72EFFE0F17250CA600005AC9 /* NSString+CLURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFFE0D17250CA600005AC9 /* NSString+CLURLEncoding.m */; };
+		D6611FB91BE2DC080096623E /* CLLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 721E57CE1BB555B700F7FDD1 /* CLLayer.h */; };
 		FA8B4E681AD6C86D00F03FF4 /* CLCloudinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 723C80C1163885C7003FB3FB /* CLCloudinary.m */; };
 		FA8B4E691AD6C87500F03FF4 /* CLTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 723C80EA16394BAA003FB3FB /* CLTransformation.m */; };
 		FA8B4E6A1AD6C87700F03FF4 /* CLUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 723C8104163A9118003FB3FB /* CLUploader.m */; };
@@ -43,7 +44,10 @@
 		FA8B4E731AD6C91700F03FF4 /* CLUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 723C8103163A9118003FB3FB /* CLUploader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA8B4E741AD6C91900F03FF4 /* CLEagerTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 723C8106163AB193003FB3FB /* CLEagerTransformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA8B4E751AD6C92800F03FF4 /* Cloudinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 723E72371642D295004CFB6E /* Cloudinary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA8B4E771AD6C98700F03FF4 /* CloudinaryFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8B4E761AD6C98700F03FF4 /* CloudinaryFramework.h */; };
+		FA8B4E771AD6C98700F03FF4 /* CloudinaryFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8B4E761AD6C98700F03FF4 /* CloudinaryFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADED34E1CA300740062D4F1 /* CLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 721E57CF1BB555B700F7FDD1 /* CLLayer.m */; };
+		FADED34F1CA3008A0062D4F1 /* CLLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 721E57CE1BB555B700F7FDD1 /* CLLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADED3501CA300980062D4F1 /* NSString+CLURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EFFE0C17250CA600005AC9 /* NSString+CLURLEncoding.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				D6611FB91BE2DC080096623E /* CLLayer.h in CopyFiles */,
 				723E72381642D487004CFB6E /* Cloudinary.h in CopyFiles */,
 				723E72341642B9F7004CFB6E /* CLTransformation.h in CopyFiles */,
 				723E72351642B9F7004CFB6E /* CLUploader.h in CopyFiles */,
@@ -160,6 +165,7 @@
 				723C80B8163885C7003FB3FB /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		723C80B8163885C7003FB3FB /* Products */ = {
 			isa = PBXGroup;
@@ -191,9 +197,9 @@
 				723C80BF163885C7003FB3FB /* CLCloudinary.h */,
 				723C80C1163885C7003FB3FB /* CLCloudinary.m */,
 				723C80E916394BAA003FB3FB /* CLTransformation.h */,
+				723C80EA16394BAA003FB3FB /* CLTransformation.m */,
 				721E57CE1BB555B700F7FDD1 /* CLLayer.h */,
 				721E57CF1BB555B700F7FDD1 /* CLLayer.m */,
-				723C80EA16394BAA003FB3FB /* CLTransformation.m */,
 				723C8103163A9118003FB3FB /* CLUploader.h */,
 				723C8104163A9118003FB3FB /* CLUploader.m */,
 				723C8106163AB193003FB3FB /* CLEagerTransformation.h */,
@@ -244,9 +250,11 @@
 				FA8B4E751AD6C92800F03FF4 /* Cloudinary.h in Headers */,
 				FA8B4E711AD6C91200F03FF4 /* CLCloudinary.h in Headers */,
 				FA8B4E721AD6C91500F03FF4 /* CLTransformation.h in Headers */,
+				FADED34F1CA3008A0062D4F1 /* CLLayer.h in Headers */,
 				FA8B4E731AD6C91700F03FF4 /* CLUploader.h in Headers */,
 				FA8B4E771AD6C98700F03FF4 /* CloudinaryFramework.h in Headers */,
 				FA8B4E701AD6C90900F03FF4 /* NSDictionary+CLUtilities.h in Headers */,
+				FADED3501CA300980062D4F1 /* NSString+CLURLEncoding.h in Headers */,
 				FA8B4E741AD6C91900F03FF4 /* CLEagerTransformation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,7 +322,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastTestingUpgradeCheck = 0510;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Cloudinary Ltd";
 				TargetAttributes = {
 					FA8B4E4E1AD6C83300F03FF4 = {
@@ -394,6 +402,7 @@
 				FA8B4E6C1AD6C88100F03FF4 /* NSDictionary+CLUtilities.m in Sources */,
 				FA8B4E6A1AD6C87700F03FF4 /* CLUploader.m in Sources */,
 				FA8B4E691AD6C87500F03FF4 /* CLTransformation.m in Sources */,
+				FADED34E1CA300740062D4F1 /* CLLayer.m in Sources */,
 				FA8B4E6D1AD6C88300F03FF4 /* NSString+CLURLEncoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -570,6 +579,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cloudinary.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Cloudinary;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -609,6 +619,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cloudinary.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Cloudinary;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
